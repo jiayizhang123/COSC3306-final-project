@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!-- 
+COSC 3306 Group 2
+Student Name: Jiayi Zhang, Md Bhuiyan, Cole DellaSavia
+
+Purpose: using Three.js draw island scene with animations, 10 distinct elements 
+and interaction.
+
+Reference: 
+https://codepen.io/ptc24/pen/BpXbOW
+https://hofk.de/main/ShaderBook/shader1/shader1.html
+ -->
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Perlin/Simplex Noise Terrain in THREE.js</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+
+
+<!-- partial -->
+  
+<script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/89/three.min.js'></script>
+<script src='https://cdn.rawgit.com/josephg/noisejs/master/perlin.js'></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.100.0/examples/js/controls/OrbitControls.js"></script>
+<!-- MTLLoader (r100) -->
+<script src="https://cdn.jsdelivr.net/npm/three@0.100.0/examples/js/loaders/MTLLoader.js"></script>
+<!-- ARButton (r150) -->
+<script src="https://cdn.jsdelivr.net/npm/three@0.150.1/examples/jsm/webxr/ARButton.js"></script>
+
+<!-- OBJLoader (r100) -->
+<script src="https://cdn.jsdelivr.net/npm/three@0.100.0/examples/js/loaders/OBJLoader.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.100.0/examples/js/controls/PointerLockControls.js"></script>
+
+
+<script src="./script.js"></script>
+<div id="overlay-text" style="position: absolute; bottom: 10px; right: 10px; color: yellow; font-size: 20px;"><b>
+    Press WS to move the boat (by COSC 3306 Group2)
+</div>
+
+</body>
+</html>
